@@ -47,27 +47,27 @@ public:
     key->Rotation(ignition::math::Quaterniond(0, 0, 0));
 
     key = anim->CreateKeyFrame(10);
-    key->Translation(ignition::math::Vector3d(-5.2, -0.7, 0.0));
+    key->Translation(ignition::math::Vector3d(-0.5, -1.0, 0.0));
     key->Rotation(ignition::math::Quaterniond(0, 0, 0));
 
     key = anim->CreateKeyFrame(50);
-    key->Translation(ignition::math::Vector3d(-7.5, 0.9, 0.0));
+    key->Translation(ignition::math::Vector3d(-3.5, -1.0, 0.0));
     key->Rotation(ignition::math::Quaterniond(0, 0, 0));
 
     key = anim->CreateKeyFrame(70);
-    key->Translation(ignition::math::Vector3d(-13.8, 0.85, 0.0));
+    key->Translation(ignition::math::Vector3d(-3.7, -3.0, 0.0));
     key->Rotation(ignition::math::Quaterniond(0, 0, 0));
 
     key = anim->CreateKeyFrame(90);
-    key->Translation(ignition::math::Vector3d(-16.0, -0.7, 0.0));
+    key->Translation(ignition::math::Vector3d(-3.5, -1.0, 0.0));
     key->Rotation(ignition::math::Quaterniond(0, 0, 0));
 
     key = anim->CreateKeyFrame(130);
-    key->Translation(ignition::math::Vector3d(-19.0, -0.5, 0.0));
+    key->Translation(ignition::math::Vector3d(-0.5, -1.0, 0.0));
     key->Rotation(ignition::math::Quaterniond(0, 0, 0));
 
     key = anim->CreateKeyFrame(140);
-    key->Translation(ignition::math::Vector3d(-20.0, 0.2, 0.0));
+    key->Translation(ignition::math::Vector3d(0.0, 0.0, 0.0));
     key->Rotation(ignition::math::Quaterniond(0, 0, 0));
 
     key = anim->CreateKeyFrame(160);

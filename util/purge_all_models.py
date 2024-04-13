@@ -8,7 +8,7 @@ import shutil
 
 from clean_single_model import TOP_EPISODES, CLEAN_BUFFER_STORAGE
 
-base_path = os.getenv('DRLNAV_BASE_PATH') + "/src/turtlebot3_drl/model/" + str(socket.gethostname() + "/")
+base_path = os.getenv('DRLNAV_BASE_PATH') + "/src/turtlebot_sn/model/" + str(socket.gethostname() + "/")
 
 TOP_EPISODES         = TOP_EPISODES             # number of best episodes to keep from each model
 CLEAN_BUFFER_STORAGE = CLEAN_BUFFER_STORAGE     # Delete stored replay buffer states too free up space

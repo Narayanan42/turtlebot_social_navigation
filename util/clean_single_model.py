@@ -6,7 +6,7 @@ import pandas as pd
 import socket
 import shutil
 
-base_path = os.getenv('DRLNAV_BASE_PATH') + "/src/turtlebot3_drl/model/" + str(socket.gethostname() + "/")
+base_path = os.getenv('DRLNAV_BASE_PATH') + "/src/turtlebot_sn/model/" + str(socket.gethostname() + "/")
 
 TOP_EPISODES         = 4        # number of best episodes to keep from each model
 CLEAN_BUFFER_STORAGE = True     # Delete stored replay buffer states too free up space

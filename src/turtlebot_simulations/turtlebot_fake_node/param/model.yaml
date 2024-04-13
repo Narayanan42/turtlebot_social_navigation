@@ -1,4 +1,4 @@
-turtlebot4_fake_node:
+turtlebot_fake_node:
   ros__parameters:
     wheels:
       separation: 0.200

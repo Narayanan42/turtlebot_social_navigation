@@ -7,7 +7,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     rviz_config_dir = os.path.join(
-        get_package_share_directory('turtlebot4_fake_node'),
+        get_package_share_directory('turtlebot_fake_node'),
         'rviz',
         'model.rviz'
     )

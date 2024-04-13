@@ -36,7 +36,7 @@ namespace gazebo
           // name the animation "move_2",
           // make it last 260 seconds,
           // and set it on a repeat loop
-          new gazebo::common::PoseAnimation("move4", 120.0, true));
+          new gazebo::common::PoseAnimation("move4", 170.0, true));
 
       gazebo::common::PoseKeyFrame *key;
 
@@ -46,38 +46,38 @@ namespace gazebo
       key->Rotation(ignition::math::Quaterniond(0, 0, 0));
 
       key = anim->CreateKeyFrame(10);
-      key->Translation(ignition::math::Vector3d(-3.0, -1.25, 0.0));
+      key->Translation(ignition::math::Vector3d(0.0, -3.2, 0.0));
       key->Rotation(ignition::math::Quaterniond(0, 0, 0));
 
       key = anim->CreateKeyFrame(30);
-      key->Translation(ignition::math::Vector3d(-5.0, 0.5, 0.0));
+      key->Translation(ignition::math::Vector3d(2.0, -2.7, 0.0));
       key->Rotation(ignition::math::Quaterniond(0, 0, 0));
 
       key = anim->CreateKeyFrame(40);
-      key->Translation(ignition::math::Vector3d(-9.0, -0.3, 0.0));
+      key->Translation(ignition::math::Vector3d(0.0, 0.0, 0.0));
       key->Rotation(ignition::math::Quaterniond(0, 0, 0));
 
       key = anim->CreateKeyFrame(60);
-      key->Translation(ignition::math::Vector3d(-11.0, 0.5, 0.0));
+      key->Translation(ignition::math::Vector3d(0.0, -3.2, 0.0));
       key->Rotation(ignition::math::Quaterniond(0, 0, 0));
 
       key = anim->CreateKeyFrame(80);
-      key->Translation(ignition::math::Vector3d(-13.0, -0.5, 0.0));
+      key->Translation(ignition::math::Vector3d(2.0, -2.7, 0.0));
       key->Rotation(ignition::math::Quaterniond(0, 0, 0));
 
       key = anim->CreateKeyFrame(110);
-      key->Translation(ignition::math::Vector3d(-16.5, -0.4, 0.0));
+      key->Translation(ignition::math::Vector3d(0.0, 0.0, 0.0));
       key->Rotation(ignition::math::Quaterniond(0, 0, 0));
 
-      // key = anim->CreateKeyFrame(130);
-      // key->Translation(ignition::math::Vector3d(0.0, -3.2, 0.0));
-      // key->Rotation(ignition::math::Quaterniond(0, 0, 0));
+      key = anim->CreateKeyFrame(130);
+      key->Translation(ignition::math::Vector3d(0.0, -3.2, 0.0));
+      key->Rotation(ignition::math::Quaterniond(0, 0, 0));
 
-      // key = anim->CreateKeyFrame(150);
-      // key->Translation(ignition::math::Vector3d(2.0, -2.7, 0.0));
-      // key->Rotation(ignition::math::Quaterniond(0, 0, 0));
+      key = anim->CreateKeyFrame(150);
+      key->Translation(ignition::math::Vector3d(2.0, -2.7, 0.0));
+      key->Rotation(ignition::math::Quaterniond(0, 0, 0));
 
-      key = anim->CreateKeyFrame(120);
+      key = anim->CreateKeyFrame(170);
       key->Translation(ignition::math::Vector3d(0.0, 0.0, 0.0));
       key->Rotation(ignition::math::Quaterniond(0, 0, 0));
 

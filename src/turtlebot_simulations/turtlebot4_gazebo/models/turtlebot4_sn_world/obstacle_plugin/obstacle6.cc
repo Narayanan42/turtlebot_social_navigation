@@ -23,7 +23,7 @@
 
 namespace gazebo
 {
-  class Obstacle5 : public ModelPlugin
+  class Obstacle6 : public ModelPlugin
   {
   public:
     void Load(physics::ModelPtr _parent, sdf::ElementPtr /*_sdf*/)
@@ -36,7 +36,7 @@ namespace gazebo
           // name the animation "move_2",
           // make it last 260 seconds,
           // and set it on a repeat loop
-          new gazebo::common::PoseAnimation("move5", 150.0, true));
+          new gazebo::common::PoseAnimation("move6", 170.0, true));
 
       gazebo::common::PoseKeyFrame *key;
 
@@ -46,42 +46,34 @@ namespace gazebo
       key->Rotation(ignition::math::Quaterniond(0, 0, 0));
 
       key = anim->CreateKeyFrame(10);
-      key->Translation(ignition::math::Vector3d(13.0, 0.3, 0.0));
+      key->Translation(ignition::math::Vector3d(-1.0, 0.0, 0.0));
       key->Rotation(ignition::math::Quaterniond(0, 0, 0));
 
       key = anim->CreateKeyFrame(40);
-      key->Translation(ignition::math::Vector3d(15.0, -1.15, 0.0));
+      key->Translation(ignition::math::Vector3d(-1.0, 2.0, 0.0));
       key->Rotation(ignition::math::Quaterniond(0, 0, 0));
 
       key = anim->CreateKeyFrame(55);
-      key->Translation(ignition::math::Vector3d(16.0, 0.0, 0.0));
+      key->Translation(ignition::math::Vector3d(-1.5, 0.0, 0.0));
       key->Rotation(ignition::math::Quaterniond(0, 0, 0));
 
       key = anim->CreateKeyFrame(85);
-      key->Translation(ignition::math::Vector3d(18.5, 0.0, 0.0));
+      key->Translation(ignition::math::Vector3d(0.0, 2.0, 0.0));
       key->Rotation(ignition::math::Quaterniond(0, 0, 0));
 
-      key = anim->CreateKeyFrame(110);
-      key->Translation(ignition::math::Vector3d(20.0, -0.5, 0.0));
+      key = anim->CreateKeyFrame(120);
+      key->Translation(ignition::math::Vector3d(-4.0, -1.8, 0.0));
       key->Rotation(ignition::math::Quaterniond(0, 0, 0));
 
-      key = anim->CreateKeyFrame(125);
-      key->Translation(ignition::math::Vector3d(6.0, -1.0, 0.0));
+      key = anim->CreateKeyFrame(130);
+      key->Translation(ignition::math::Vector3d(-3.0, -1.8, 0.0));
       key->Rotation(ignition::math::Quaterniond(0, 0, 0));
 
       key = anim->CreateKeyFrame(145);
-      key->Translation(ignition::math::Vector3d(0.0, 0.0, 0.0));
+      key->Translation(ignition::math::Vector3d(-2.5, 1.0, 0.0));
       key->Rotation(ignition::math::Quaterniond(0, 0, 0));
 
-      // key = anim->CreateKeyFrame(170);
-      // key->Translation(ignition::math::Vector3d(2.0, 0.0, 0.0));
-      // key->Rotation(ignition::math::Quaterniond(0, 0, 0));
-
-      // key = anim->CreateKeyFrame(185);
-      // key->Translation(ignition::math::Vector3d(2.0, 2.0, 0.0));
-      // key->Rotation(ignition::math::Quaterniond(0, 0, 0));
-
-      key = anim->CreateKeyFrame(150);
+      key = anim->CreateKeyFrame(170);
       key->Translation(ignition::math::Vector3d(0.0, 0.0, 0.0));
       key->Rotation(ignition::math::Quaterniond(0, 0, 0));
 
@@ -100,5 +92,5 @@ namespace gazebo
     event::ConnectionPtr updateConnection;
   };
   // Register this plugin with the simulator
-  GZ_REGISTER_MODEL_PLUGIN(Obstacle5)
+  GZ_REGISTER_MODEL_PLUGIN(Obstacle6)
 } // namespace gazebo
