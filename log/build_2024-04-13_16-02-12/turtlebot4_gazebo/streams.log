@@ -1,0 +1,192 @@
+[0.014s] Invoking command in '/home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake --build /home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo -- -j16 -l16
+[0.031s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.130s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.130s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.130s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.130s]   problems in calling code that expects `find_package` result variables
+[0.130s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.130s] Call Stack (most recent call first):
+[0.130s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.130s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.130s]   CMakeLists.txt:23 (find_package)
+[0.130s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.130s] [0m
+[0.148s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.168s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.168s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.171s] -- Searching for dependencies of ignition-math6
+[0.172s] -- Looking for OGRE...
+[0.175s] -- Found Ogre Ghadamon (1.9.0)
+[0.175s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.182s] -- Looking for OGRE_Paging...
+[0.182s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.182s] -- Looking for OGRE_Terrain...
+[0.182s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.182s] -- Looking for OGRE_Property...
+[0.182s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.182s] -- Looking for OGRE_RTShaderSystem...
+[0.182s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.182s] -- Looking for OGRE_Volume...
+[0.182s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.182s] -- Looking for OGRE_Overlay...
+[0.182s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.290s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.290s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.290s] -- Searching for dependencies of ignition-transport8
+[0.304s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.313s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.316s] -- Checking for module 'libzmq >= 4'
+[0.325s] --   Found libzmq , version 4.3.4
+[0.350s] -- Checking for module 'uuid'
+[0.358s] --   Found uuid, version 2.37.2
+[0.378s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.379s] -- Searching for dependencies of ignition-msgs5
+[0.392s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.395s] -- Checking for module 'tinyxml2'
+[0.404s] --   Found tinyxml2, version 9.0.0
+[0.424s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.424s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.425s] -- Searching for dependencies of ignition-common3
+[0.425s] -- Looking for dlfcn.h - found
+[0.425s] -- Looking for libdl - found
+[0.433s] -- Searching for <ignition-common3> component [graphics]
+[0.433s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.433s] -- Searching for dependencies of ignition-common3-graphics
+[0.433s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.434s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.434s] -- Searching for dependencies of ignition-fuel_tools4
+[0.463s] -- Checking for module 'jsoncpp'
+[0.472s] --   Found jsoncpp, version 1.9.5
+[0.497s] -- Checking for module 'libzip'
+[0.505s] --   Found libzip, version 1.7.3
+[0.525s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.525s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.526s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.527s] -- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[0.527s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.539s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.540s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.544s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.551s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.561s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.638s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.691s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.721s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.723s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.804s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.885s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.939s] -- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)
+[0.987s] -- Configuring done
+[1.004s] -- Generating done
+[1.005s] -- Build files have been written to: /home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo
+[1.027s] [35m[1mConsolidate compiler generated dependencies of target obstacle2[0m
+[1.027s] [35m[1mConsolidate compiler generated dependencies of target obstacle1[0m
+[1.027s] [35m[1mConsolidate compiler generated dependencies of target obstacles[0m
+[1.033s] [ 12%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[1.052s] [ 75%] Built target obstacle2
+[1.053s] [ 75%] Built target obstacle1
+[1.053s] [ 87%] Built target obstacles
+[2.476s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:7:1:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KTurtlebot4Drive[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.476s]     7 | [01;31m[KTurtlebot3Drive[m[K::Turtlebot4Drive()
+[2.476s]       | [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.476s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:7:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint Turtlebot3Drive::Turtlebot4Drive()[m[K’
+[2.476s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:7:1:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kint Turtlebot3Drive::Turtlebot4Drive()[m[K’
+[2.476s] In file included from [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:1[m[K:
+[2.476s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/include/turtlebot3_gazebo/turtlebot3_drive.hpp:42:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Turtlebot3Drive[m[K’ defined here
+[2.476s]    42 | class [01;36m[KTurtlebot3Drive[m[K : public rclcpp::Node
+[2.476s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[2.477s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:47:1:[m[K [01;31m[Kerror: [m[K‘[01m[KTurtlebot4Drive[m[K’ does not name a type; did you mean ‘[01m[KTurtlebot3Drive[m[K’?
+[2.477s]    47 | [01;31m[KTurtlebot4Drive[m[K::~Turtlebot4Drive()
+[2.477s]       | [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.477s]       | [32m[KTurtlebot3Drive[m[K
+[2.477s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:55:6:[m[K [01;31m[Kerror: [m[K‘[01m[KTurtlebot4Drive[m[K’ has not been declared
+[2.477s]    55 | void [01;31m[KTurtlebot4Drive[m[K::odom_callback(const nav_msgs::msg::Odometry::SharedPtr msg)
+[2.477s]       |      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.481s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:[m[K In function ‘[01m[Kvoid odom_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.481s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:66:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_pose_[m[K’ was not declared in this scope
+[2.481s]    66 |   [01;31m[Krobot_pose_[m[K = yaw;
+[2.481s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.481s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:[m[K At global scope:
+[2.481s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:69:6:[m[K [01;31m[Kerror: [m[K‘[01m[KTurtlebot4Drive[m[K’ has not been declared
+[2.481s]    69 | void [01;31m[KTurtlebot4Drive[m[K::scan_callback(const sensor_msgs::msg::LaserScan::SharedPtr msg)
+[2.481s]       |      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.484s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:[m[K In function ‘[01m[Kvoid scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.484s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:75:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_data_[m[K’ was not declared in this scope
+[2.484s]    75 |       [01;31m[Kscan_data_[m[K[num] = msg->range_max;
+[2.485s]       |       [01;31m[K^~~~~~~~~~[m[K
+[2.487s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:77:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_data_[m[K’ was not declared in this scope
+[2.487s]    77 |       [01;31m[Kscan_data_[m[K[num] = msg->ranges.at(scan_angle[num]);
+[2.487s]       |       [01;31m[K^~~~~~~~~~[m[K
+[2.487s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:[m[K At global scope:
+[2.487s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:82:6:[m[K [01;31m[Kerror: [m[K‘[01m[KTurtlebot4Drive[m[K’ has not been declared
+[2.487s]    82 | void [01;31m[KTurtlebot4Drive[m[K::update_cmd_vel(double linear, double angular)
+[2.487s]       |      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.489s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:[m[K In function ‘[01m[Kvoid update_cmd_vel(double, double)[m[K’:
+[2.489s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:88:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_vel_pub_[m[K’ was not declared in this scope
+[2.489s]    88 |   [01;31m[Kcmd_vel_pub_[m[K->publish(cmd_vel);
+[2.489s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[2.489s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:[m[K At global scope:
+[2.489s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:94:6:[m[K [01;31m[Kerror: [m[K‘[01m[KTurtlebot4Drive[m[K’ has not been declared
+[2.489s]    94 | void [01;31m[KTurtlebot4Drive[m[K::update_callback()
+[2.490s]       |      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.491s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:[m[K In function ‘[01m[Kvoid update_callback()[m[K’:
+[2.491s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:103:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_data_[m[K’ was not declared in this scope
+[2.491s]   103 |       if ([01;31m[Kscan_data_[m[K[CENTER] > check_forward_dist) {
+[2.491s]       |           [01;31m[K^~~~~~~~~~[m[K
+[2.495s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:105:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_robot_pose_[m[K’ was not declared in this scope
+[2.495s]   105 |           [01;31m[Kprev_robot_pose_[m[K = robot_pose_;
+[2.495s]       |           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.497s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:105:30:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_pose_[m[K’ was not declared in this scope
+[2.497s]   105 |           prev_robot_pose_ = [01;31m[Krobot_pose_[m[K;
+[2.497s]       |                              [01;31m[K^~~~~~~~~~~[m[K
+[2.500s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:108:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_robot_pose_[m[K’ was not declared in this scope
+[2.500s]   108 |           [01;31m[Kprev_robot_pose_[m[K = robot_pose_;
+[2.500s]       |           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.503s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:108:30:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_pose_[m[K’ was not declared in this scope
+[2.503s]   108 |           prev_robot_pose_ = [01;31m[Krobot_pose_[m[K;
+[2.503s]       |                              [01;31m[K^~~~~~~~~~~[m[K
+[2.505s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:115:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_data_[m[K’ was not declared in this scope
+[2.505s]   115 |       if ([01;31m[Kscan_data_[m[K[CENTER] < check_forward_dist) {
+[2.505s]       |           [01;31m[K^~~~~~~~~~[m[K
+[2.508s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:116:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_robot_pose_[m[K’ was not declared in this scope
+[2.508s]   116 |         [01;31m[Kprev_robot_pose_[m[K = robot_pose_;
+[2.509s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.511s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:116:28:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_pose_[m[K’ was not declared in this scope
+[2.511s]   116 |         prev_robot_pose_ = [01;31m[Krobot_pose_[m[K;
+[2.511s]       |                            [01;31m[K^~~~~~~~~~~[m[K
+[2.514s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:127:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_robot_pose_[m[K’ was not declared in this scope
+[2.514s]   127 |       if (fabs([01;31m[Kprev_robot_pose_[m[K - robot_pose_) >= escape_range) {
+[2.514s]       |                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.516s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:127:35:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_pose_[m[K’ was not declared in this scope
+[2.517s]   127 |       if (fabs(prev_robot_pose_ - [01;31m[Krobot_pose_[m[K) >= escape_range) {
+[2.517s]       |                                   [01;31m[K^~~~~~~~~~~[m[K
+[2.520s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:135:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_robot_pose_[m[K’ was not declared in this scope
+[2.520s]   135 |       if (fabs([01;31m[Kprev_robot_pose_[m[K - robot_pose_) >= escape_range) {
+[2.520s]       |                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.522s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:135:35:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_pose_[m[K’ was not declared in this scope
+[2.522s]   135 |       if (fabs(prev_robot_pose_ - [01;31m[Krobot_pose_[m[K) >= escape_range) {
+[2.522s]       |                                   [01;31m[K^~~~~~~~~~~[m[K
+[2.525s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.525s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:154:33:[m[K [01;31m[Kerror: [m[K‘[01m[KTurtlebot4Drive[m[K’ was not declared in this scope; did you mean ‘[01m[KTurtlebot3Drive[m[K’?
+[2.525s]   154 |   rclcpp::spin(std::make_shared<[01;31m[KTurtlebot4Drive[m[K>());
+[2.525s]       |                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.525s]       |                                 [32m[KTurtlebot3Drive[m[K
+[2.525s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:154:49:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[2.525s]   154 |   rclcpp::spin([01;31m[Kstd::make_shared<Turtlebot4Drive>()[m[K);
+[2.525s]       |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[2.526s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[2.526s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:10[m[K,
+[2.526s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7[m[K,
+[2.526s]                  from [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/include/turtlebot3_gazebo/turtlebot3_drive.hpp:20[m[K,
+[2.526s]                  from [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:1[m[K:
+[2.526s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[2.526s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[2.526s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[2.526s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.526s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot3_drive.cpp:154:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.526s]   154 |   rclcpp::spin([01;31m[Kstd::make_shared<Turtlebot4Drive>()[m[K);
+[2.526s]       |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[2.798s] gmake[2]: *** [CMakeFiles/turtlebot3_drive.dir/build.make:76: CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o] Error 1
+[2.798s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/turtlebot3_drive.dir/all] Error 2
+[2.798s] gmake: *** [Makefile:146: all] Error 2
+[2.800s] Invoked command in '/home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake --build /home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo -- -j16 -l16

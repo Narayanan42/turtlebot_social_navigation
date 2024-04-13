@@ -1,0 +1,102 @@
+[0.013s] Invoking command in '/home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake /home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo -DCMAKE_INSTALL_PREFIX=/home/nanu/turtlebot_social_navigation/install/turtlebot4_gazebo
+[0.022s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.126s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.126s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.126s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.126s]   problems in calling code that expects `find_package` result variables
+[0.126s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.126s] Call Stack (most recent call first):
+[0.126s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.126s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.126s]   CMakeLists.txt:23 (find_package)
+[0.126s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.126s] [0m
+[0.144s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.166s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.167s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.171s] -- Searching for dependencies of ignition-math6
+[0.172s] -- Looking for OGRE...
+[0.177s] -- Found Ogre Ghadamon (1.9.0)
+[0.177s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.185s] -- Looking for OGRE_Paging...
+[0.185s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.185s] -- Looking for OGRE_Terrain...
+[0.185s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.185s] -- Looking for OGRE_Property...
+[0.185s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.185s] -- Looking for OGRE_RTShaderSystem...
+[0.185s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.185s] -- Looking for OGRE_Volume...
+[0.185s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.185s] -- Looking for OGRE_Overlay...
+[0.185s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.303s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.304s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.304s] -- Searching for dependencies of ignition-transport8
+[0.318s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.327s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.330s] -- Checking for module 'libzmq >= 4'
+[0.339s] --   Found libzmq , version 4.3.4
+[0.364s] -- Checking for module 'uuid'
+[0.373s] --   Found uuid, version 2.37.2
+[0.393s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.393s] -- Searching for dependencies of ignition-msgs5
+[0.406s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.409s] -- Checking for module 'tinyxml2'
+[0.418s] --   Found tinyxml2, version 9.0.0
+[0.439s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.439s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.439s] -- Searching for dependencies of ignition-common3
+[0.439s] -- Looking for dlfcn.h - found
+[0.439s] -- Looking for libdl - found
+[0.448s] -- Searching for <ignition-common3> component [graphics]
+[0.448s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.448s] -- Searching for dependencies of ignition-common3-graphics
+[0.448s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.448s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.448s] -- Searching for dependencies of ignition-fuel_tools4
+[0.474s] -- Checking for module 'jsoncpp'
+[0.483s] --   Found jsoncpp, version 1.9.5
+[0.507s] -- Checking for module 'libzip'
+[0.515s] --   Found libzip, version 1.7.3
+[0.535s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.535s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.536s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.537s] -- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[0.537s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.549s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.551s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.555s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.563s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.575s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.668s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.728s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.762s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.763s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.852s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.942s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.002s] -- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)
+[1.052s] -- Configuring done
+[1.070s] -- Generating done
+[1.072s] -- Build files have been written to: /home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo
+[1.080s] Invoked command in '/home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake /home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo -DCMAKE_INSTALL_PREFIX=/home/nanu/turtlebot_social_navigation/install/turtlebot4_gazebo
+[1.081s] Invoking command in '/home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake --build /home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo -- -j16 -l16
+[1.113s] [ 12%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot4_sn_world/obstacle_plugin/obstacle2.cc.o[0m
+[1.113s] [ 25%] [32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot4_sn_world/obstacle_plugin/obstacles.cc.o[0m
+[1.113s] [ 37%] [32mBuilding CXX object CMakeFiles/turtlebot4_drive.dir/src/turtlebot4_drive.cpp.o[0m
+[1.113s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot4_sn_world/obstacle_plugin/obstacle1.cc.o[0m
+[1.120s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot4_drive.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kturtlebot4_gazebo/turtlebot4_drive.hpp: No such file or directory
+[1.120s]     1 | #include [01;31m[K"turtlebot4_gazebo/turtlebot4_drive.hpp"[m[K
+[1.120s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.120s] compilation terminated.
+[1.121s] gmake[2]: *** [CMakeFiles/turtlebot4_drive.dir/build.make:76: CMakeFiles/turtlebot4_drive.dir/src/turtlebot4_drive.cpp.o] Error 1
+[1.121s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/turtlebot4_drive.dir/all] Error 2
+[1.121s] gmake[1]: *** Waiting for unfinished jobs....
+[9.526s] [ 62%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[9.527s] [ 75%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[9.527s] [ 87%] [32m[1mLinking CXX shared library libobstacle2.so[0m
+[9.693s] [ 87%] Built target obstacle2
+[9.693s] [ 87%] Built target obstacle1
+[9.693s] [ 87%] Built target obstacles
+[9.694s] gmake: *** [Makefile:146: all] Error 2
+[9.697s] Invoked command in '/home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake --build /home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo -- -j16 -l16

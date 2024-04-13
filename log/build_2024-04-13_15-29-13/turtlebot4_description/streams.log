@@ -1,0 +1,81 @@
+[0.010s] Invoking command in '/home/nanu/turtlebot_social_navigation/build/turtlebot4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake /home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_description -DCMAKE_INSTALL_PREFIX=/home/nanu/turtlebot_social_navigation/install/turtlebot4_description
+[0.135s] -- The C compiler identification is GNU 11.4.0
+[0.223s] -- The CXX compiler identification is GNU 11.4.0
+[0.232s] -- Detecting C compiler ABI info
+[0.286s] -- Detecting C compiler ABI info - done
+[0.296s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.296s] -- Detecting C compile features
+[0.296s] -- Detecting C compile features - done
+[0.300s] -- Detecting CXX compiler ABI info
+[0.359s] -- Detecting CXX compiler ABI info - done
+[0.368s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.369s] -- Detecting CXX compile features
+[0.369s] -- Detecting CXX compile features - done
+[0.371s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.472s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.570s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[0.629s] -- Found irobot_create_description: 2.0.0 (/home/nanu/turtlebot3_drlnav/install/irobot_create_description/share/irobot_create_description/cmake)
+[0.631s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.713s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.715s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.715s] -- Configured cppcheck include dirs: 
+[0.715s] -- Configured cppcheck exclude dirs and/or files: 
+[0.718s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.718s] -- Configured cpplint exclude dirs and/or files: 
+[0.718s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.719s] -- Added test 'lint_cmake' to check CMake code style
+[0.720s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.722s] -- Added test 'uncrustify' to check C / C++ code style
+[0.722s] -- Configured uncrustify additional arguments: 
+[0.723s] -- Added test 'xmllint' to check XML markup files
+[0.725s] -- Configuring done
+[0.727s] -- Generating done
+[0.728s] -- Build files have been written to: /home/nanu/turtlebot_social_navigation/build/turtlebot4_description
+[0.734s] Invoked command in '/home/nanu/turtlebot_social_navigation/build/turtlebot4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake /home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_description -DCMAKE_INSTALL_PREFIX=/home/nanu/turtlebot_social_navigation/install/turtlebot4_description
+[0.736s] Invoking command in '/home/nanu/turtlebot_social_navigation/build/turtlebot4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake --build /home/nanu/turtlebot_social_navigation/build/turtlebot4_description -- -j16 -l16
+[0.768s] Invoked command in '/home/nanu/turtlebot_social_navigation/build/turtlebot4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake --build /home/nanu/turtlebot_social_navigation/build/turtlebot4_description -- -j16 -l16
+[0.794s] Invoking command in '/home/nanu/turtlebot_social_navigation/build/turtlebot4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake --install /home/nanu/turtlebot_social_navigation/build/turtlebot4_description
+[0.800s] -- Install configuration: ""
+[0.801s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/launch
+[0.801s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/launch/robot_description.launch.py
+[0.801s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes
+[0.801s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/shell_collision.dae
+[0.803s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/shell.dae
+[0.807s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/body_visual.dae
+[0.808s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/rplidar.dae
+[0.809s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/weight_block.dae
+[0.809s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/tower.dae
+[0.809s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/bumper_collision.dae
+[0.810s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/dock
+[0.810s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/dock/visual.dae
+[0.814s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/oakd_lite.dae
+[0.818s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/tower_sensor_plate.dae
+[0.818s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/camera_bracket.dae
+[0.818s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/bumper_visual.dae
+[0.818s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/oakd_pro.dae
+[0.827s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/tower_standoff.dae
+[0.827s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/urdf
+[0.827s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors
+[0.827s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/rplidar.urdf.xacro
+[0.827s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/oakd.urdf.xacro
+[0.827s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/camera_bracket.urdf.xacro
+[0.827s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/urdf/lite
+[0.827s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/urdf/lite/model.config
+[0.827s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/urdf/lite/turtlebot4.urdf.xacro
+[0.827s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/urdf/lite/turtlebot4.urdf
+[0.827s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/urdf/lite/turtlebot4.sdf
+[0.827s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/ament_index/resource_index/package_run_dependencies/turtlebot4_description
+[0.828s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/ament_index/resource_index/parent_prefix_path/turtlebot4_description
+[0.828s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/environment/ament_prefix_path.sh
+[0.828s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/environment/ament_prefix_path.dsv
+[0.828s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/environment/path.sh
+[0.828s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/environment/path.dsv
+[0.828s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/local_setup.bash
+[0.828s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/local_setup.sh
+[0.828s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/local_setup.zsh
+[0.828s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/local_setup.dsv
+[0.828s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/package.dsv
+[0.828s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/ament_index/resource_index/packages/turtlebot4_description
+[0.828s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/cmake/turtlebot4_descriptionConfig.cmake
+[0.828s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/cmake/turtlebot4_descriptionConfig-version.cmake
+[0.829s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/package.xml

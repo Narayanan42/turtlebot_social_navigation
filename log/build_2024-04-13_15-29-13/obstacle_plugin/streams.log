@@ -1,0 +1,115 @@
+[0.017s] Invoking command in '/home/nanu/turtlebot_social_navigation/build/obstacle_plugin': /usr/bin/cmake /home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle_plugin -DCMAKE_INSTALL_PREFIX=/home/nanu/turtlebot_social_navigation/install/obstacle_plugin
+[0.041s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.041s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.041s]   contain a literal, direct call to the project() command.  Add a line of
+[0.041s]   code such as
+[0.041s] 
+[0.041s]     project(ProjectName)
+[0.041s] 
+[0.041s]   near the top of the file, but after cmake_minimum_required().
+[0.041s] 
+[0.041s]   CMake is pretending there is a "project(Project)" command on the first
+[0.041s]   line.
+[0.041s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.041s] [0m
+[0.146s] -- The C compiler identification is GNU 11.4.0
+[0.232s] -- The CXX compiler identification is GNU 11.4.0
+[0.241s] -- Detecting C compiler ABI info
+[0.295s] -- Detecting C compiler ABI info - done
+[0.301s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.301s] -- Detecting C compile features
+[0.301s] -- Detecting C compile features - done
+[0.304s] -- Detecting CXX compiler ABI info
+[0.365s] -- Detecting CXX compiler ABI info - done
+[0.376s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.376s] -- Detecting CXX compile features
+[0.377s] -- Detecting CXX compile features - done
+[0.377s] [0mCMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+[0.377s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.377s]   CMake.
+[0.377s] 
+[0.377s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.377s]   CMake that the project does not need compatibility with older versions.
+[0.377s] 
+[0.377s] [0m
+[0.386s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.386s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.386s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.386s]   problems in calling code that expects `find_package` result variables
+[0.386s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.386s] Call Stack (most recent call first):
+[0.386s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.386s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.386s]   CMakeLists.txt:9 (find_package)
+[0.386s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.386s] [0m
+[0.386s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.389s] -- Checking for module 'bullet>=2.82'
+[0.399s] --   Found bullet, version 3.05
+[0.487s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[0.523s] -- Found assimp: /usr/include (found version "5.2.0") 
+[0.547s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.695s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[0.717s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.723s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.732s] -- Searching for dependencies of ignition-math6
+[0.734s] -- Looking for OGRE...
+[0.735s] -- OGRE_PREFIX_WATCH changed.
+[0.739s] -- Checking for module 'OGRE'
+[0.751s] --   Found OGRE, version 1.9.0
+[0.781s] -- Found Ogre Ghadamon (1.9.0)
+[0.791s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.800s] -- Looking for OGRE_Paging...
+[0.806s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.806s] -- Looking for OGRE_Terrain...
+[0.811s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.811s] -- Looking for OGRE_Property...
+[0.816s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.816s] -- Looking for OGRE_RTShaderSystem...
+[0.822s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.822s] -- Looking for OGRE_Volume...
+[0.827s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.827s] -- Looking for OGRE_Overlay...
+[0.832s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.939s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.943s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.943s] -- Searching for dependencies of ignition-transport8
+[0.959s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.968s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.972s] -- Checking for module 'libzmq >= 4'
+[0.984s] --   Found libzmq , version 4.3.4
+[1.009s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.013s] -- Checking for module 'uuid'
+[1.021s] --   Found uuid, version 2.37.2
+[1.044s] -- Found UUID: TRUE  
+[1.047s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.047s] -- Searching for dependencies of ignition-msgs5
+[1.063s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.067s] -- Checking for module 'tinyxml2'
+[1.078s] --   Found tinyxml2, version 9.0.0
+[1.103s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.106s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.106s] -- Searching for dependencies of ignition-common3
+[1.106s] -- Looking for dlfcn.h - found
+[1.107s] -- Looking for libdl - found
+[1.108s] -- Found DL: TRUE  
+[1.117s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.117s] -- Searching for <ignition-common3> component [graphics]
+[1.119s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.120s] -- Searching for dependencies of ignition-common3-graphics
+[1.120s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.123s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.123s] -- Searching for dependencies of ignition-fuel_tools4
+[1.174s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.180s] -- Checking for module 'jsoncpp'
+[1.188s] --   Found jsoncpp, version 1.9.5
+[1.209s] -- Found JSONCPP: TRUE  
+[1.214s] -- Checking for module 'libzip'
+[1.222s] --   Found libzip, version 1.7.3
+[1.244s] -- Found ZIP: TRUE  
+[1.244s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.244s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.244s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.250s] -- Configuring done
+[1.292s] -- Generating done
+[1.294s] -- Build files have been written to: /home/nanu/turtlebot_social_navigation/build/obstacle_plugin

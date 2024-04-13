@@ -1,0 +1,53 @@
+running egg_info
+creating ../../build/turtlebot_sn/turtlebot_sn.egg-info
+writing ../../build/turtlebot_sn/turtlebot_sn.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtlebot_sn/turtlebot_sn.egg-info/dependency_links.txt
+writing entry points to ../../build/turtlebot_sn/turtlebot_sn.egg-info/entry_points.txt
+writing requirements to ../../build/turtlebot_sn/turtlebot_sn.egg-info/requires.txt
+writing top-level names to ../../build/turtlebot_sn/turtlebot_sn.egg-info/top_level.txt
+writing manifest file '../../build/turtlebot_sn/turtlebot_sn.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtlebot_sn/turtlebot_sn.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/turtlebot_sn/turtlebot_sn.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build
+creating /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build/lib
+creating /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build/lib/turtlebot_sn
+copying turtlebot_sn/__init__.py -> /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build/lib/turtlebot_sn
+creating /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build/lib/turtlebot_sn/sn_environment
+copying turtlebot_sn/sn_environment/__init__.py -> /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build/lib/turtlebot_sn/sn_environment
+copying turtlebot_sn/sn_environment/sn_environment_real.py -> /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build/lib/turtlebot_sn/sn_environment
+copying turtlebot_sn/sn_environment/reward.py -> /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build/lib/turtlebot_sn/sn_environment
+copying turtlebot_sn/sn_environment/sn_environment.py -> /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build/lib/turtlebot_sn/sn_environment
+running install
+running install_lib
+creating /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/python3.10/site-packages/turtlebot_sn
+copying /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build/lib/turtlebot_sn/__init__.py -> /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/python3.10/site-packages/turtlebot_sn
+creating /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/python3.10/site-packages/turtlebot_sn/sn_environment
+copying /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build/lib/turtlebot_sn/sn_environment/__init__.py -> /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/python3.10/site-packages/turtlebot_sn/sn_environment
+copying /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build/lib/turtlebot_sn/sn_environment/sn_environment_real.py -> /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/python3.10/site-packages/turtlebot_sn/sn_environment
+copying /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build/lib/turtlebot_sn/sn_environment/reward.py -> /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/python3.10/site-packages/turtlebot_sn/sn_environment
+copying /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build/lib/turtlebot_sn/sn_environment/sn_environment.py -> /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/python3.10/site-packages/turtlebot_sn/sn_environment
+byte-compiling /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/python3.10/site-packages/turtlebot_sn/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/python3.10/site-packages/turtlebot_sn/sn_environment/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/python3.10/site-packages/turtlebot_sn/sn_environment/sn_environment_real.py to sn_environment_real.cpython-310.pyc
+byte-compiling /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/python3.10/site-packages/turtlebot_sn/sn_environment/reward.py to reward.cpython-310.pyc
+byte-compiling /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/python3.10/site-packages/turtlebot_sn/sn_environment/sn_environment.py to sn_environment.cpython-310.pyc
+running install_data
+creating /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/share/ament_index
+creating /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/share/ament_index/resource_index
+creating /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/share/ament_index/resource_index/packages
+copying resource/turtlebot_sn -> /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/share/ament_index/resource_index/packages
+copying package.xml -> /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/share/turtlebot_sn
+creating /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/share/turtlebot_sn/launch
+running install_egg_info
+Copying ../../build/turtlebot_sn/turtlebot_sn.egg-info to /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/python3.10/site-packages/turtlebot_sn-2.0.0-py3.10.egg-info
+running install_scripts
+Installing environment script to /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/turtlebot_sn
+Installing gazebo_goals script to /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/turtlebot_sn
+Installing real_agent script to /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/turtlebot_sn
+Installing real_environment script to /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/turtlebot_sn
+Installing test_agent script to /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/turtlebot_sn
+Installing train_agent script to /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/turtlebot_sn
+writing list of installed files to '/home/nanu/turtlebot_social_navigation/build/turtlebot_sn/install.log'

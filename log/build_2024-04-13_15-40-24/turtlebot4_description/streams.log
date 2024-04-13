@@ -1,0 +1,48 @@
+[0.013s] Invoking command in '/home/nanu/turtlebot_social_navigation/build/turtlebot4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake --build /home/nanu/turtlebot_social_navigation/build/turtlebot4_description -- -j16 -l16
+[0.045s] Invoked command in '/home/nanu/turtlebot_social_navigation/build/turtlebot4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake --build /home/nanu/turtlebot_social_navigation/build/turtlebot4_description -- -j16 -l16
+[0.100s] Invoking command in '/home/nanu/turtlebot_social_navigation/build/turtlebot4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake --install /home/nanu/turtlebot_social_navigation/build/turtlebot4_description
+[0.107s] -- Install configuration: ""
+[0.107s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/launch
+[0.107s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/launch/robot_description.launch.py
+[0.107s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes
+[0.107s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/shell_collision.dae
+[0.108s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/shell.dae
+[0.108s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/body_visual.dae
+[0.108s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/rplidar.dae
+[0.108s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/weight_block.dae
+[0.108s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/tower.dae
+[0.108s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/bumper_collision.dae
+[0.108s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/dock
+[0.108s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/dock/visual.dae
+[0.109s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/oakd_lite.dae
+[0.109s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/tower_sensor_plate.dae
+[0.109s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/camera_bracket.dae
+[0.109s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/bumper_visual.dae
+[0.109s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/oakd_pro.dae
+[0.109s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/meshes/tower_standoff.dae
+[0.109s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/urdf
+[0.109s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors
+[0.109s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/rplidar.urdf.xacro
+[0.109s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/oakd.urdf.xacro
+[0.109s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/camera_bracket.urdf.xacro
+[0.109s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/urdf/lite
+[0.110s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/urdf/lite/model.config
+[0.110s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/urdf/lite/turtlebot4.urdf.xacro
+[0.110s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/urdf/lite/turtlebot4.urdf
+[0.110s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/urdf/lite/turtlebot4.sdf
+[0.110s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/ament_index/resource_index/package_run_dependencies/turtlebot4_description
+[0.110s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/ament_index/resource_index/parent_prefix_path/turtlebot4_description
+[0.110s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/environment/ament_prefix_path.sh
+[0.110s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/environment/ament_prefix_path.dsv
+[0.110s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/environment/path.sh
+[0.110s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/environment/path.dsv
+[0.111s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/local_setup.bash
+[0.111s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/local_setup.sh
+[0.111s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/local_setup.zsh
+[0.111s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/local_setup.dsv
+[0.111s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/package.dsv
+[0.111s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/ament_index/resource_index/packages/turtlebot4_description
+[0.111s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/cmake/turtlebot4_descriptionConfig.cmake
+[0.111s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/cmake/turtlebot4_descriptionConfig-version.cmake
+[0.111s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/package.xml
+[0.112s] Invoked command in '/home/nanu/turtlebot_social_navigation/build/turtlebot4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake --install /home/nanu/turtlebot_social_navigation/build/turtlebot4_description

@@ -1,0 +1,14 @@
+[0.013s] Invoking command in '/home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake --build /home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo -- -j16 -l16
+[0.049s] [ 12%] [32mBuilding CXX object CMakeFiles/turtlebot4_drive.dir/src/turtlebot4_drive.cpp.o[0m
+[0.056s] [01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot4_drive.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kturtlebot4_gazebo/turtlebot3_drive.hpp: No such file or directory
+[0.056s]     1 | #include [01;31m[K"turtlebot4_gazebo/turtlebot3_drive.hpp"[m[K
+[0.056s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.056s] compilation terminated.
+[0.057s] gmake[2]: *** [CMakeFiles/turtlebot4_drive.dir/build.make:76: CMakeFiles/turtlebot4_drive.dir/src/turtlebot4_drive.cpp.o] Error 1
+[0.057s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/turtlebot4_drive.dir/all] Error 2
+[0.057s] gmake[1]: *** Waiting for unfinished jobs....
+[0.068s] [ 37%] Built target obstacle1
+[0.069s] [ 62%] Built target obstacle2
+[0.071s] [ 87%] Built target obstacles
+[0.072s] gmake: *** [Makefile:146: all] Error 2
+[0.074s] Invoked command in '/home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake --build /home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo -- -j16 -l16

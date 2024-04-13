@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target obstacle1[0m
+[35m[1mConsolidate compiler generated dependencies of target obstacle2[0m
+[35m[1mConsolidate compiler generated dependencies of target obstacles[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/turtlebot4_drive.dir/src/turtlebot4_drive.cpp.o[0m
+[01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot4_drive.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kturtlebot4_gazebo/turtlebot3_drive.hpp: No such file or directory
+    1 | #include [01;31m[K"turtlebot4_gazebo/turtlebot3_drive.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/turtlebot4_drive.dir/build.make:76: CMakeFiles/turtlebot4_drive.dir/src/turtlebot4_drive.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/turtlebot4_drive.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 37%] Built target obstacle2
+[ 62%] Built target obstacle1
+[ 87%] Built target obstacles
+gmake: *** [Makefile:146: all] Error 2

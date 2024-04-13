@@ -1,0 +1,2 @@
+Invoking command in '/home/nanu/turtlebot_social_navigation/build/obstacle_plugin': /usr/bin/cmake --build /home/nanu/turtlebot_social_navigation/build/obstacle_plugin -- -j16 -l16
+Invoked command in '/home/nanu/turtlebot_social_navigation/build/obstacle_plugin' returned '0': /usr/bin/cmake --build /home/nanu/turtlebot_social_navigation/build/obstacle_plugin -- -j16 -l16

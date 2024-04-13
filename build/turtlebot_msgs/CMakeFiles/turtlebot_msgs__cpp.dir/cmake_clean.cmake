@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/turtlebot_msgs__cpp"
+  "rosidl_generator_cpp/turtlebot_msgs/action/detail/patrol__builder.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/action/detail/patrol__struct.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/action/detail/patrol__traits.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/action/patrol.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/msg/detail/sensor_state__builder.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/msg/detail/sensor_state__struct.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/msg/detail/sensor_state__traits.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/msg/detail/sound__builder.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/msg/detail/sound__struct.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/msg/detail/sound__traits.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/msg/detail/version_info__builder.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/msg/detail/version_info__struct.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/msg/detail/version_info__traits.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/msg/sensor_state.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/msg/sound.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/msg/version_info.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/srv/detail/drl_step__builder.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/srv/detail/drl_step__struct.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/srv/detail/drl_step__traits.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/srv/detail/goal__builder.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/srv/detail/goal__struct.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/srv/detail/goal__traits.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/srv/detail/ring_goal__builder.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/srv/detail/ring_goal__struct.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/srv/detail/ring_goal__traits.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/srv/detail/sound__builder.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/srv/detail/sound__struct.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/srv/detail/sound__traits.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/srv/drl_step.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/srv/goal.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/srv/ring_goal.hpp"
+  "rosidl_generator_cpp/turtlebot_msgs/srv/sound.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/turtlebot_msgs__cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,9 @@
+/home/nanu/turtlebot_social_navigation/build/turtlebot_simulations/CMakeFiles/uninstall.dir
+/home/nanu/turtlebot_social_navigation/build/turtlebot_simulations/CMakeFiles/turtlebot_simulations_uninstall.dir
+/home/nanu/turtlebot_social_navigation/build/turtlebot_simulations/CMakeFiles/test.dir
+/home/nanu/turtlebot_social_navigation/build/turtlebot_simulations/CMakeFiles/edit_cache.dir
+/home/nanu/turtlebot_social_navigation/build/turtlebot_simulations/CMakeFiles/rebuild_cache.dir
+/home/nanu/turtlebot_social_navigation/build/turtlebot_simulations/CMakeFiles/list_install_components.dir
+/home/nanu/turtlebot_social_navigation/build/turtlebot_simulations/CMakeFiles/install.dir
+/home/nanu/turtlebot_social_navigation/build/turtlebot_simulations/CMakeFiles/install/local.dir
+/home/nanu/turtlebot_social_navigation/build/turtlebot_simulations/CMakeFiles/install/strip.dir

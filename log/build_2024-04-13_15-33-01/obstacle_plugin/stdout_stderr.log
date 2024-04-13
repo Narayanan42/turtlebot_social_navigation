@@ -1,0 +1,39 @@
+[  3%] [32mBuilding CXX object CMakeFiles/obstacle3.dir/obstacle3.cc.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/obstacle1.cc.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/obstacle2.cc.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/obstacle4.dir/obstacle4.cc.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/obstacles.dir/obstacles.cc.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/obstacle6.dir/obstacle6.cc.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/obstacle5.dir/obstacle5.cc.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/obstacle9.dir/obstacle9.cc.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/obstacle10.dir/obstacle10.cc.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/obstacle7.dir/obstacle7.cc.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/obstacle12.dir/obstacle12.cc.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/obstacle8.dir/obstacle8.cc.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/obstacle11.dir/obstacle11.cc.o[0m
+[ 53%] [32m[1mLinking CXX shared library libobstacle10.so[0m
+[ 57%] [32m[1mLinking CXX shared library libobstacle3.so[0m
+[ 57%] Built target obstacle10
+[ 61%] [32m[1mLinking CXX shared library libobstacle6.so[0m
+[ 61%] Built target obstacle3
+[ 65%] [32m[1mLinking CXX shared library libobstacle9.so[0m
+[ 65%] Built target obstacle6
+[ 65%] Built target obstacle9
+[ 69%] [32m[1mLinking CXX shared library libobstacle4.so[0m
+[ 73%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[ 76%] [32m[1mLinking CXX shared library libobstacle7.so[0m
+[ 76%] Built target obstacle4
+[ 76%] Built target obstacle1
+[ 76%] Built target obstacle7
+[ 80%] [32m[1mLinking CXX shared library libobstacle5.so[0m
+[ 84%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[ 88%] [32m[1mLinking CXX shared library libobstacle2.so[0m
+[ 92%] [32m[1mLinking CXX shared library libobstacle12.so[0m
+[ 92%] Built target obstacle5
+[ 96%] [32m[1mLinking CXX shared library libobstacle11.so[0m
+[100%] [32m[1mLinking CXX shared library libobstacle8.so[0m
+[100%] Built target obstacles
+[100%] Built target obstacle2
+[100%] Built target obstacle12
+[100%] Built target obstacle11
+[100%] Built target obstacle8

@@ -1,0 +1,1 @@
+Invoking command in '/home/nanu/turtlebot_social_navigation/build/obstacle_plugin': /usr/bin/cmake /home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle_plugin -DCMAKE_INSTALL_PREFIX=/home/nanu/turtlebot_social_navigation/install/obstacle_plugin

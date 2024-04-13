@@ -1,0 +1,1 @@
+Invoking command in '/home/nanu/turtlebot_social_navigation/build/turtlebot_msgs': /usr/bin/cmake /home/nanu/turtlebot_social_navigation/src/turtlebot_msgs -DCMAKE_INSTALL_PREFIX=/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs

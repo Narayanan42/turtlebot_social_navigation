@@ -1,0 +1,23 @@
+[0.010s] Invoking command in '/home/nanu/turtlebot_social_navigation/build/turtlebot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake --build /home/nanu/turtlebot_social_navigation/build/turtlebot_msgs -- -j16 -l16
+[0.046s] [  1%] Built target turtlebot_msgs__cpp
+[0.049s] [ 12%] Built target turtlebot_msgs__rosidl_generator_c
+[0.058s] [ 12%] Built target ament_cmake_python_copy_turtlebot_msgs
+[0.071s] [ 24%] Built target turtlebot_msgs__rosidl_typesupport_introspection_cpp
+[0.074s] [ 45%] Built target turtlebot_msgs__rosidl_typesupport_c
+[0.074s] [ 47%] Built target turtlebot_msgs__rosidl_typesupport_cpp
+[0.075s] [ 58%] Built target turtlebot_msgs__rosidl_typesupport_fastrtps_cpp
+[0.075s] [ 70%] Built target turtlebot_msgs__rosidl_typesupport_introspection_c
+[0.078s] [ 81%] Built target turtlebot_msgs__rosidl_typesupport_fastrtps_c
+[0.092s] [ 81%] Built target turtlebot_msgs
+[0.109s] [ 82%] Built target turtlebot_msgs__py
+[0.126s] [ 93%] Built target turtlebot_msgs__rosidl_generator_py
+[0.142s] [ 97%] Built target turtlebot_msgs__rosidl_typesupport_introspection_c__pyext
+[0.142s] [ 97%] Built target turtlebot_msgs__rosidl_typesupport_c__pyext
+[0.142s] [100%] Built target turtlebot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.240s] running egg_info
+[0.240s] writing turtlebot_msgs.egg-info/PKG-INFO
+[0.240s] writing dependency_links to turtlebot_msgs.egg-info/dependency_links.txt
+[0.240s] writing top-level names to turtlebot_msgs.egg-info/top_level.txt
+[0.242s] reading manifest file 'turtlebot_msgs.egg-info/SOURCES.txt'
+[0.242s] writing manifest file 'turtlebot_msgs.egg-info/SOURCES.txt'
+[0.259s] [100%] Built target ament_cmake_python_build_turtlebot_msgs_egg

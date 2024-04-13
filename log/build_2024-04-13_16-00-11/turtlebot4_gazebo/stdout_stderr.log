@@ -1,0 +1,12 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/turtlebot4_drive.dir/src/turtlebot4_drive.cpp.o[0m
+[01m[K/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot4_drive.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kturtlebot4_gazebo/turtlebot4_drive.hpp: No such file or directory
+    1 | #include [01;31m[K"turtlebot4_gazebo/turtlebot4_drive.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/turtlebot4_drive.dir/build.make:76: CMakeFiles/turtlebot4_drive.dir/src/turtlebot4_drive.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/turtlebot4_drive.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 62%] Built target obstacles
+[ 62%] Built target obstacle2
+[ 87%] Built target obstacle1
+gmake: *** [Makefile:146: all] Error 2

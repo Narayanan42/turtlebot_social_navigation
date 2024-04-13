@@ -1,0 +1,33 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/turtlebot_fake_node.dir/src/turtlebot_fake_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable turtlebot_fake_node[0m
+[100%] Built target turtlebot_fake_node
+-- Install configuration: ""
+-- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/lib/turtlebot_fake_node/turtlebot_fake_node
+-- Set runtime path of "/home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/lib/turtlebot_fake_node/turtlebot_fake_node" to ""
+-- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/launch
+-- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/launch/rviz2.launch.py
+-- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/launch/turtlebot_fake_node.launch.py
+-- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/param
+-- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/param/model.yaml
+-- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/rviz
+-- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/rviz/model.rviz
+-- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/include/
+-- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/include//turtlebot_fake_node
+-- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/include//turtlebot_fake_node/turtlebot_fake_node.hpp
+-- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot_fake_node
+-- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot_fake_node
+-- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/environment/ament_prefix_path.sh
+-- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/environment/ament_prefix_path.dsv
+-- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/environment/path.sh
+-- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/environment/path.dsv
+-- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/local_setup.bash
+-- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/local_setup.sh
+-- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/local_setup.zsh
+-- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/local_setup.dsv
+-- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/package.dsv
+-- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/ament_index/resource_index/packages/turtlebot_fake_node
+-- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/cmake/turtlebot_fake_nodeConfig.cmake
+-- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/cmake/turtlebot_fake_nodeConfig-version.cmake
+-- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/package.xml

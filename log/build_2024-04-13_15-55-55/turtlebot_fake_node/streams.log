@@ -1,0 +1,54 @@
+[0.010s] Invoking command in '/home/nanu/turtlebot_social_navigation/build/turtlebot_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake --build /home/nanu/turtlebot_social_navigation/build/turtlebot_fake_node -- -j16 -l16
+[0.026s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.127s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.148s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.150s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.155s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.164s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.175s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.263s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.328s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.364s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.366s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.463s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.559s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.622s] -- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)
+[0.628s] -- Found tf2_msgs: 0.25.6 (/opt/ros/humble/share/tf2_msgs/cmake)
+[0.737s] -- Found turtlebot_msgs: 2.2.1 (/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/share/turtlebot_msgs/cmake)
+[0.841s] -- Configuring done
+[0.849s] -- Generating done
+[0.850s] -- Build files have been written to: /home/nanu/turtlebot_social_navigation/build/turtlebot_fake_node
+[0.871s] [35m[1mConsolidate compiler generated dependencies of target turtlebot_fake_node[0m
+[0.884s] [100%] Built target turtlebot_fake_node
+[0.892s] Invoked command in '/home/nanu/turtlebot_social_navigation/build/turtlebot_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake --build /home/nanu/turtlebot_social_navigation/build/turtlebot_fake_node -- -j16 -l16
+[0.913s] Invoking command in '/home/nanu/turtlebot_social_navigation/build/turtlebot_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake --install /home/nanu/turtlebot_social_navigation/build/turtlebot_fake_node
+[0.918s] -- Install configuration: ""
+[0.918s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/lib/turtlebot_fake_node/turtlebot_fake_node
+[0.918s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/launch
+[0.918s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/launch/rviz2.launch.py
+[0.918s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/launch/turtlebot_fake_node.launch.py
+[0.918s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/param
+[0.918s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/param/model.yaml
+[0.919s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/rviz
+[0.919s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/rviz/model.rviz
+[0.919s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/include/
+[0.919s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/include//turtlebot_fake_node
+[0.919s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/include//turtlebot_fake_node/turtlebot_fake_node.hpp
+[0.919s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot_fake_node
+[0.919s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot_fake_node
+[0.919s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/environment/ament_prefix_path.sh
+[0.919s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/environment/ament_prefix_path.dsv
+[0.919s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/environment/path.sh
+[0.919s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/environment/path.dsv
+[0.919s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/local_setup.bash
+[0.919s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/local_setup.sh
+[0.919s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/local_setup.zsh
+[0.919s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/local_setup.dsv
+[0.919s] -- Installing: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/package.dsv
+[0.919s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/ament_index/resource_index/packages/turtlebot_fake_node
+[0.919s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.919s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.919s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/cmake/turtlebot_fake_nodeConfig.cmake
+[0.919s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/cmake/turtlebot_fake_nodeConfig-version.cmake
+[0.920s] -- Up-to-date: /home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/package.xml
+[0.920s] Invoked command in '/home/nanu/turtlebot_social_navigation/build/turtlebot_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake --install /home/nanu/turtlebot_social_navigation/build/turtlebot_fake_node

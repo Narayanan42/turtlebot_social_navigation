@@ -1,0 +1,8 @@
+/home/nanu/turtlebot_social_navigation/build/turtlebot_msgs/rosidl_adapter/turtlebot_msgs:msg/SensorState.idl
+/home/nanu/turtlebot_social_navigation/build/turtlebot_msgs/rosidl_adapter/turtlebot_msgs:msg/Sound.idl
+/home/nanu/turtlebot_social_navigation/build/turtlebot_msgs/rosidl_adapter/turtlebot_msgs:msg/VersionInfo.idl
+/home/nanu/turtlebot_social_navigation/build/turtlebot_msgs/rosidl_adapter/turtlebot_msgs:srv/Sound.idl
+/home/nanu/turtlebot_social_navigation/build/turtlebot_msgs/rosidl_adapter/turtlebot_msgs:srv/DrlStep.idl
+/home/nanu/turtlebot_social_navigation/build/turtlebot_msgs/rosidl_adapter/turtlebot_msgs:srv/Goal.idl
+/home/nanu/turtlebot_social_navigation/build/turtlebot_msgs/rosidl_adapter/turtlebot_msgs:srv/RingGoal.idl
+/home/nanu/turtlebot_social_navigation/build/turtlebot_msgs/rosidl_adapter/turtlebot_msgs:action/Patrol.idl

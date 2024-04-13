@@ -1,0 +1,9 @@
+[0.015s] Invoking command in '/home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake --build /home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo -- -j16 -l16
+[0.045s] gmake[2]: *** No rule to make target '/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/src/turtlebot4_drive.cpp', needed by 'CMakeFiles/turtlebot4_drive.dir/src/turtlebot4_drive.cpp.o'.  Stop.
+[0.045s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/turtlebot4_drive.dir/all] Error 2
+[0.045s] gmake[1]: *** Waiting for unfinished jobs....
+[0.072s] [ 25%] Built target obstacles
+[0.073s] [ 50%] Built target obstacle1
+[0.073s] [ 75%] Built target obstacle2
+[0.075s] gmake: *** [Makefile:146: all] Error 2
+[0.076s] Invoked command in '/home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake --build /home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo -- -j16 -l16

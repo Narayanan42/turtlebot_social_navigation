@@ -1,0 +1,55 @@
+[0.654s] Invoking command in '/home/nanu/turtlebot_social_navigation/src/turtlebot_sn': PYTHONPATH=/home/nanu/turtlebot_social_navigation/build/turtlebot_sn/prefix_override:/home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot_sn build --build-base /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build install --record /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/install.log --single-version-externally-managed install_data
+[0.829s] running egg_info
+[0.830s] creating ../../build/turtlebot_sn/turtlebot_sn.egg-info
+[0.830s] writing ../../build/turtlebot_sn/turtlebot_sn.egg-info/PKG-INFO
+[0.830s] writing dependency_links to ../../build/turtlebot_sn/turtlebot_sn.egg-info/dependency_links.txt
+[0.830s] writing entry points to ../../build/turtlebot_sn/turtlebot_sn.egg-info/entry_points.txt
+[0.830s] writing requirements to ../../build/turtlebot_sn/turtlebot_sn.egg-info/requires.txt
+[0.830s] writing top-level names to ../../build/turtlebot_sn/turtlebot_sn.egg-info/top_level.txt
+[0.830s] writing manifest file '../../build/turtlebot_sn/turtlebot_sn.egg-info/SOURCES.txt'
+[0.831s] reading manifest file '../../build/turtlebot_sn/turtlebot_sn.egg-info/SOURCES.txt'
+[0.831s] adding license file 'LICENSE'
+[0.832s] writing manifest file '../../build/turtlebot_sn/turtlebot_sn.egg-info/SOURCES.txt'
+[0.832s] running build
+[0.832s] running build_py
+[0.832s] creating /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build
+[0.832s] creating /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build/lib
+[0.832s] creating /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build/lib/turtlebot_sn
+[0.832s] copying turtlebot_sn/__init__.py -> /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build/lib/turtlebot_sn
+[0.833s] creating /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build/lib/turtlebot_sn/sn_environment
+[0.833s] copying turtlebot_sn/sn_environment/__init__.py -> /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build/lib/turtlebot_sn/sn_environment
+[0.833s] copying turtlebot_sn/sn_environment/sn_environment_real.py -> /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build/lib/turtlebot_sn/sn_environment
+[0.833s] copying turtlebot_sn/sn_environment/reward.py -> /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build/lib/turtlebot_sn/sn_environment
+[0.834s] copying turtlebot_sn/sn_environment/sn_environment.py -> /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build/lib/turtlebot_sn/sn_environment
+[0.834s] running install
+[0.834s] running install_lib
+[0.835s] creating /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/python3.10/site-packages/turtlebot_sn
+[0.835s] copying /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build/lib/turtlebot_sn/__init__.py -> /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/python3.10/site-packages/turtlebot_sn
+[0.835s] creating /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/python3.10/site-packages/turtlebot_sn/sn_environment
+[0.835s] copying /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build/lib/turtlebot_sn/sn_environment/__init__.py -> /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/python3.10/site-packages/turtlebot_sn/sn_environment
+[0.835s] copying /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build/lib/turtlebot_sn/sn_environment/sn_environment_real.py -> /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/python3.10/site-packages/turtlebot_sn/sn_environment
+[0.835s] copying /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build/lib/turtlebot_sn/sn_environment/reward.py -> /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/python3.10/site-packages/turtlebot_sn/sn_environment
+[0.835s] copying /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build/lib/turtlebot_sn/sn_environment/sn_environment.py -> /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/python3.10/site-packages/turtlebot_sn/sn_environment
+[0.836s] byte-compiling /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/python3.10/site-packages/turtlebot_sn/__init__.py to __init__.cpython-310.pyc
+[0.836s] byte-compiling /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/python3.10/site-packages/turtlebot_sn/sn_environment/__init__.py to __init__.cpython-310.pyc
+[0.836s] byte-compiling /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/python3.10/site-packages/turtlebot_sn/sn_environment/sn_environment_real.py to sn_environment_real.cpython-310.pyc
+[0.837s] byte-compiling /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/python3.10/site-packages/turtlebot_sn/sn_environment/reward.py to reward.cpython-310.pyc
+[0.837s] byte-compiling /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/python3.10/site-packages/turtlebot_sn/sn_environment/sn_environment.py to sn_environment.cpython-310.pyc
+[0.838s] running install_data
+[0.839s] creating /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/share/ament_index
+[0.839s] creating /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/share/ament_index/resource_index
+[0.839s] creating /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/share/ament_index/resource_index/packages
+[0.839s] copying resource/turtlebot_sn -> /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/share/ament_index/resource_index/packages
+[0.839s] copying package.xml -> /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/share/turtlebot_sn
+[0.839s] creating /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/share/turtlebot_sn/launch
+[0.839s] running install_egg_info
+[0.840s] Copying ../../build/turtlebot_sn/turtlebot_sn.egg-info to /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/python3.10/site-packages/turtlebot_sn-2.0.0-py3.10.egg-info
+[0.840s] running install_scripts
+[0.854s] Installing environment script to /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/turtlebot_sn
+[0.854s] Installing gazebo_goals script to /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/turtlebot_sn
+[0.854s] Installing real_agent script to /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/turtlebot_sn
+[0.854s] Installing real_environment script to /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/turtlebot_sn
+[0.855s] Installing test_agent script to /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/turtlebot_sn
+[0.855s] Installing train_agent script to /home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/turtlebot_sn
+[0.855s] writing list of installed files to '/home/nanu/turtlebot_social_navigation/build/turtlebot_sn/install.log'
+[0.870s] Invoked command in '/home/nanu/turtlebot_social_navigation/src/turtlebot_sn' returned '0': PYTHONPATH=/home/nanu/turtlebot_social_navigation/build/turtlebot_sn/prefix_override:/home/nanu/turtlebot_social_navigation/install/turtlebot_sn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot_sn build --build-base /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/build install --record /home/nanu/turtlebot_social_navigation/build/turtlebot_sn/install.log --single-version-externally-managed install_data

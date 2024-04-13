@@ -1,0 +1,39 @@
+[0.013s] Invoking command in '/home/nanu/turtlebot_social_navigation/build/turtlebot_msgs': /usr/bin/cmake /home/nanu/turtlebot_social_navigation/src/turtlebot_msgs -DCMAKE_INSTALL_PREFIX=/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs
+[0.020s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[0.154s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.155s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.159s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.167s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.178s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.232s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.238s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.448s] Error parsing '/home/nanu/turtlebot_social_navigation/src/turtlebot_msgs/package.xml':
+[0.476s] Traceback (most recent call last):
+[0.476s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.476s]     main()
+[0.476s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.476s]     raise e
+[0.476s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.477s]     package = parse_package_string(
+[0.477s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[0.477s]     pkg.validate(warnings=warnings)
+[0.477s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[0.477s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[0.477s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/nanu/turtlebot_social_navigation/src/turtlebot_msgs/package.xml':
+[0.477s] Package 'turtlebot_msgs' must declare at least one maintainer
+[0.477s] The package node must contain at least one "license" tag
+[0.486s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.486s]   execute_process(/usr/bin/python3
+[0.486s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.486s]   /home/nanu/turtlebot_social_navigation/src/turtlebot_msgs/package.xml
+[0.486s]   /home/nanu/turtlebot_social_navigation/build/turtlebot_msgs/ament_cmake_core/package.cmake)
+[0.486s]   returned error code 1
+[0.486s] Call Stack (most recent call first):
+[0.486s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.486s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[0.486s]   CMakeLists.txt:46 (rosidl_generate_interfaces)
+[0.486s] 
+[0.486s] [0m
+[0.486s] -- Configuring incomplete, errors occurred!
+[0.486s] See also "/home/nanu/turtlebot_social_navigation/build/turtlebot_msgs/CMakeFiles/CMakeOutput.log".
+[0.493s] Invoked command in '/home/nanu/turtlebot_social_navigation/build/turtlebot_msgs' returned '1': /usr/bin/cmake /home/nanu/turtlebot_social_navigation/src/turtlebot_msgs -DCMAKE_INSTALL_PREFIX=/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs

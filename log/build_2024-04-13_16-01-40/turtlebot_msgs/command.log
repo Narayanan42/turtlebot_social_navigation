@@ -1,0 +1,1 @@
+Invoking command in '/home/nanu/turtlebot_social_navigation/build/turtlebot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake --build /home/nanu/turtlebot_social_navigation/build/turtlebot_msgs -- -j16 -l16

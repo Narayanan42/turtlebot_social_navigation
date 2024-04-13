@@ -4,7 +4,7 @@
 
 using namespace std::chrono_literals;
 
-Turtlebot3Drive::Turtlebot3Drive()
+Turtlebot4Drive::Turtlebot4Drive()
 : Node("turtlebot4_drive_node")
 {
   /************************************************************

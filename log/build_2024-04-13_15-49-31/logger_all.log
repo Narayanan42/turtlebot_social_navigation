@@ -1,0 +1,1092 @@
+[0.067s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.067s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x79e929b44eb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79e929b44a30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79e929b44a30>>)
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.193s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nanu/turtlebot_social_navigation'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_msgs) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_msgs) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_msgs) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_msgs) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_msgs) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_msgs) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_msgs) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_msgs) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot_msgs' with type 'ros.ament_cmake' and name 'turtlebot_msgs'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations) by extension 'ros'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations) by extensions ['cmake', 'python']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations) by extension 'cmake'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations) by extension 'python'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations) by extensions ['python_setup_py']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations) by extension 'python_setup_py'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo) by extension 'ros'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo) by extensions ['cmake', 'python']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo) by extension 'cmake'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo) by extension 'python'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo) by extensions ['python_setup_py']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo) by extension 'python_setup_py'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/launch) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/launch) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/launch) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/launch) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/launch) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/launch) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/launch) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/launch) by extension 'ros'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/launch) by extensions ['cmake', 'python']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/launch) by extension 'cmake'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/launch) by extension 'python'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/launch) by extensions ['python_setup_py']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/launch) by extension 'python_setup_py'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models) by extension 'ros'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models) by extensions ['cmake', 'python']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models) by extension 'cmake'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models) by extension 'python'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models) by extensions ['python_setup_py']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models) by extension 'python_setup_py'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_corridor) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_corridor) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_corridor) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_corridor) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_corridor) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_corridor) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_corridor) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_corridor) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_corridor) by extension 'ros'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_corridor) by extensions ['cmake', 'python']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_corridor) by extension 'cmake'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_corridor) by extension 'python'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_corridor) by extensions ['python_setup_py']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_corridor) by extension 'python_setup_py'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_description) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_description) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_description) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_description) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_description) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_description) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_description) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_description) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_description) by extension 'ros'
+[0.207s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_description' with type 'ros.ament_cmake' and name 'turtlebot4_description'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_house) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_house) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_house) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_house) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_house) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_house) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_house) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_house) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_house) by extension 'ros'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_house) by extensions ['cmake', 'python']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_house) by extension 'cmake'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_house) by extension 'python'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_house) by extensions ['python_setup_py']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_house) by extension 'python_setup_py'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world) by extension 'ros'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world) by extensions ['cmake', 'python']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world) by extension 'cmake'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world) by extension 'python'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world) by extensions ['python_setup_py']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world) by extension 'python_setup_py'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/goal_box) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/goal_box) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/goal_box) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/goal_box) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/goal_box) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/goal_box) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/goal_box) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/goal_box) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/goal_box) by extension 'ros'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/goal_box) by extensions ['cmake', 'python']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/goal_box) by extension 'cmake'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/goal_box) by extension 'python'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/goal_box) by extensions ['python_setup_py']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/goal_box) by extension 'python_setup_py'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_obstacles) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_obstacles) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_obstacles) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_obstacles) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_obstacles) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_obstacles) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_obstacles) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_obstacles) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_obstacles) by extension 'ros'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_obstacles) by extensions ['cmake', 'python']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_obstacles) by extension 'cmake'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_obstacles) by extension 'python'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_obstacles) by extensions ['python_setup_py']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_obstacles) by extension 'python_setup_py'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_walls) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_walls) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_walls) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_walls) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_walls) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_walls) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_walls) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_walls) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_walls) by extension 'ros'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_walls) by extensions ['cmake', 'python']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_walls) by extension 'cmake'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_walls) by extension 'python'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_walls) by extensions ['python_setup_py']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_walls) by extension 'python_setup_py'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_walls_large) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_walls_large) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_walls_large) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_walls_large) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_walls_large) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_walls_large) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_walls_large) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_walls_large) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_walls_large) by extension 'ros'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_walls_large) by extensions ['cmake', 'python']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_walls_large) by extension 'cmake'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_walls_large) by extension 'python'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_walls_large) by extensions ['python_setup_py']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/inner_walls_large) by extension 'python_setup_py'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/long_wall) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/long_wall) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/long_wall) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/long_wall) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/long_wall) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/long_wall) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/long_wall) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/long_wall) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/long_wall) by extension 'ros'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/long_wall) by extensions ['cmake', 'python']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/long_wall) by extension 'cmake'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/long_wall) by extension 'python'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/long_wall) by extensions ['python_setup_py']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/long_wall) by extension 'python_setup_py'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle1) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle1) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle1) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle1) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle1) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle1) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle1) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle1) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle1) by extension 'ros'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle1) by extensions ['cmake', 'python']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle1) by extension 'cmake'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle1) by extension 'python'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle1) by extensions ['python_setup_py']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle1) by extension 'python_setup_py'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle10) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle10) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle10) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle10) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle10) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle10) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle10) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle10) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle10) by extension 'ros'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle10) by extensions ['cmake', 'python']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle10) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle10) by extension 'python'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle10) by extensions ['python_setup_py']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle10) by extension 'python_setup_py'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle11) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle11) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle11) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle11) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle11) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle11) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle11) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle11) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle11) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle11) by extensions ['cmake', 'python']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle11) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle11) by extension 'python'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle11) by extensions ['python_setup_py']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle11) by extension 'python_setup_py'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle12) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle12) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle12) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle12) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle12) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle12) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle12) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle12) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle12) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle12) by extensions ['cmake', 'python']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle12) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle12) by extension 'python'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle12) by extensions ['python_setup_py']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle12) by extension 'python_setup_py'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle2) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle2) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle2) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle2) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle2) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle2) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle2) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle2) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle2) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle2) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle2) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle2) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle2) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle2) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle3) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle3) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle3) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle3) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle3) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle3) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle3) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle3) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle3) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle3) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle3) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle3) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle3) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle3) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle4) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle4) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle4) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle4) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle4) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle4) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle4) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle4) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle4) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle4) by extensions ['cmake', 'python']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle4) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle4) by extension 'python'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle4) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle4) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle5) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle5) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle5) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle5) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle5) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle5) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle5) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle5) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle5) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle5) by extensions ['cmake', 'python']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle5) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle5) by extension 'python'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle5) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle5) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle6) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle6) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle6) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle6) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle6) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle6) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle6) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle6) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle6) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle6) by extensions ['cmake', 'python']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle6) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle6) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle6) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle6) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle7) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle7) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle7) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle7) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle7) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle7) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle7) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle7) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle7) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle7) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle7) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle7) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle7) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle7) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle8) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle8) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle8) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle8) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle8) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle8) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle8) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle8) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle8) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle8) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle8) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle8) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle8) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle8) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle9) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle9) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle9) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle9) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle9) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle9) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle9) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle9) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle9) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle9) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle9) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle9) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle9) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle9) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle_plugin) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle_plugin) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle_plugin) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle_plugin) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle_plugin) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle_plugin) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle_plugin) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle_plugin) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle_plugin) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle_plugin) by extension 'cmake'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle_plugin) by extension 'python'
+[0.220s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle_plugin' with type 'cmake' and name 'obstacle_plugin'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacles) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacles) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacles) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacles) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacles) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacles) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacles) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacles) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacles) by extension 'ros'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacles) by extensions ['cmake', 'python']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacles) by extension 'cmake'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacles) by extension 'python'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacles) by extensions ['python_setup_py']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacles) by extension 'python_setup_py'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/outer_walls) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/outer_walls) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/outer_walls) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/outer_walls) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/outer_walls) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/outer_walls) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/outer_walls) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/outer_walls) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/outer_walls) by extension 'ros'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/outer_walls) by extensions ['cmake', 'python']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/outer_walls) by extension 'cmake'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/outer_walls) by extension 'python'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/outer_walls) by extensions ['python_setup_py']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/outer_walls) by extension 'python_setup_py'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/outer_walls_large) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/outer_walls_large) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/outer_walls_large) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/outer_walls_large) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/outer_walls_large) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/outer_walls_large) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/outer_walls_large) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/outer_walls_large) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/outer_walls_large) by extension 'ros'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/outer_walls_large) by extensions ['cmake', 'python']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/outer_walls_large) by extension 'cmake'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/outer_walls_large) by extension 'python'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/outer_walls_large) by extensions ['python_setup_py']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/outer_walls_large) by extension 'python_setup_py'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/triangle) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/triangle) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/triangle) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/triangle) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/triangle) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/triangle) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/triangle) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/triangle) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/triangle) by extension 'ros'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/triangle) by extensions ['cmake', 'python']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/triangle) by extension 'cmake'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/triangle) by extension 'python'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/triangle) by extensions ['python_setup_py']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/triangle) by extension 'python_setup_py'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/turtlebot4_house) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/turtlebot4_house) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/turtlebot4_house) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/turtlebot4_house) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/turtlebot4_house) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/turtlebot4_house) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/turtlebot4_house) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/turtlebot4_house) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/turtlebot4_house) by extension 'ros'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/turtlebot4_house) by extensions ['cmake', 'python']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/turtlebot4_house) by extension 'cmake'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/turtlebot4_house) by extension 'python'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/turtlebot4_house) by extensions ['python_setup_py']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/turtlebot4_house) by extension 'python_setup_py'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/rviz) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/rviz) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/rviz) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/rviz) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/rviz) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/rviz) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/rviz) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/rviz) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/rviz) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/rviz) by extensions ['cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/rviz) by extension 'cmake'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/rviz) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/rviz) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/rviz) by extension 'python_setup_py'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/src) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/src) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/src) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/src) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/src) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/src) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/src) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/src) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/src) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/src) by extensions ['cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/src) by extension 'cmake'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/src) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/src) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/src) by extension 'python_setup_py'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds) by extensions ['cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds) by extension 'cmake'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds) by extensions ['python_setup_py']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds) by extension 'python_setup_py'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/empty_worlds) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/empty_worlds) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/empty_worlds) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/empty_worlds) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/empty_worlds) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/empty_worlds) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/empty_worlds) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/empty_worlds) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/empty_worlds) by extension 'ros'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/empty_worlds) by extensions ['cmake', 'python']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/empty_worlds) by extension 'cmake'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/empty_worlds) by extension 'python'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/empty_worlds) by extensions ['python_setup_py']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/empty_worlds) by extension 'python_setup_py'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_corridor) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_corridor) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_corridor) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_corridor) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_corridor) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_corridor) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_corridor) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_corridor) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_corridor) by extension 'ros'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_corridor) by extensions ['cmake', 'python']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_corridor) by extension 'cmake'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_corridor) by extension 'python'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_corridor) by extensions ['python_setup_py']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_corridor) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_houses) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_houses) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_houses) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_houses) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_houses) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_houses) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_houses) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_houses) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_houses) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_houses) by extensions ['cmake', 'python']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_houses) by extension 'cmake'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_houses) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_houses) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_houses) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage1) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage1) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage1) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage1) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage1) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage1) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage1) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage1) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage1) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage1) by extensions ['cmake', 'python']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage1) by extension 'cmake'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage1) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage1) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage1) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage2) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage2) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage2) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage2) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage2) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage2) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage2) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage2) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage2) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage2) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage2) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage2) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage2) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage2) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage3) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage3) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage3) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage3) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage3) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage3) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage3) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage3) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage3) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage3) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage3) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage3) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage3) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage3) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage4) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage4) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage4) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage4) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage4) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage4) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage4) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage4) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage4) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage4) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage4) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage4) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage4) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage4) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage5) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage5) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage5) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage5) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage5) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage5) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage5) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage5) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage5) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage5) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage5) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage5) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage5) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage5) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage6) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage6) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage6) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage6) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage6) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage6) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage6) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage6) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage6) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage6) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage6) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage6) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage6) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage6) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage7) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage7) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage7) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage7) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage7) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage7) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage7) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage7) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage7) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage7) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage7) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage7) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage7) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage7) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage8) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage8) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage8) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage8) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage8) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage8) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage8) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage8) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage8) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage8) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage8) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage8) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage8) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage8) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage9) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage9) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage9) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage9) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage9) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage9) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage9) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage9) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage9) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage9) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage9) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage9) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage9) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot4_gazebo/worlds/turtlebot4_sn_stage9) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot_fake_node) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot_fake_node) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot_fake_node) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot_fake_node) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot_fake_node) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot_fake_node) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot_fake_node) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot_fake_node) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot_fake_node) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot_simulations/turtlebot_fake_node' with type 'ros.ament_cmake' and name 'turtlebot_fake_node'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot_simulations) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot_simulations) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot_simulations) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot_simulations) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot_simulations) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot_simulations) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot_simulations) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_simulations/turtlebot_simulations) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot_simulations/turtlebot_simulations' with type 'ros.ament_cmake' and name 'turtlebot_simulations'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/common) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/common) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/common) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/common) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/common) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/common) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/common) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/common) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/common) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/common) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/common) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/common) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/common) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/common) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/Pulse) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/Pulse) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/Pulse) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/Pulse) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/Pulse) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/Pulse) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/Pulse) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/Pulse) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/Pulse) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/Pulse) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/Pulse) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/Pulse) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/Pulse) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/Pulse) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/Pulse/td3_0_stage_9) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/Pulse/td3_0_stage_9) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/Pulse/td3_0_stage_9) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/Pulse/td3_0_stage_9) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/Pulse/td3_0_stage_9) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/Pulse/td3_0_stage_9) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/Pulse/td3_0_stage_9) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/Pulse/td3_0_stage_9) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/Pulse/td3_0_stage_9) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/Pulse/td3_0_stage_9) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/Pulse/td3_0_stage_9) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/Pulse/td3_0_stage_9) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/Pulse/td3_0_stage_9) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/Pulse/td3_0_stage_9) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/examples) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/examples) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/examples) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/examples) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/examples) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/examples) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/examples) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/examples) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/examples) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/examples) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/examples) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/examples) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/model/examples) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_agent) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_agent) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_agent) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_agent) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_agent) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_agent) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_agent) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_agent) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_agent) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_agent) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_agent) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_agent) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_agent) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_agent) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_environment) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_environment) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_environment) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_environment) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_environment) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_environment) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_environment) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_environment) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_environment) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_environment) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_environment) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_environment) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_environment) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_environment) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_gazebo) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_gazebo) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_gazebo) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_gazebo) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_gazebo) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_gazebo) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_gazebo) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_gazebo) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_gazebo) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_gazebo) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_gazebo) by extension 'python'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_gazebo) by extensions ['python_setup_py']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_sn/sn_gazebo) by extension 'python_setup_py'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(util) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(util) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(util) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(util) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(util) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(util) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(util) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(util) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(util) by extension 'ros'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(util) by extensions ['cmake', 'python']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(util) by extension 'cmake'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(util) by extension 'python'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(util) by extensions ['python_setup_py']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(util) by extension 'python_setup_py'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(util/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(util/__pycache__) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(util/__pycache__) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(util/__pycache__) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(util/__pycache__) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(util/__pycache__) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(util/__pycache__) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(util/__pycache__) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(util/__pycache__) by extension 'ros'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(util/__pycache__) by extensions ['cmake', 'python']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(util/__pycache__) by extension 'cmake'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(util/__pycache__) by extension 'python'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(util/__pycache__) by extensions ['python_setup_py']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(util/__pycache__) by extension 'python_setup_py'
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.257s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/nanu/turtlebot_social_navigation/install
+[0.258s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 17 installed packages in /home/nanu/turtlebot3_drlnav/install
+[0.259s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 334 installed packages in /opt/ros/humble
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.287s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'turtlebot4_description' is in: /home/nanu/turtlebot_social_navigation/install/turtlebot4_description, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding turtlebot4_description
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'obstacle_plugin' build argument 'cmake_args' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'obstacle_plugin' build argument 'cmake_target' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'obstacle_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'obstacle_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'obstacle_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'obstacle_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'obstacle_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'obstacle_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'obstacle_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.288s] DEBUG:colcon.colcon_core.verb:Building package 'obstacle_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nanu/turtlebot_social_navigation/build/obstacle_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nanu/turtlebot_social_navigation/install/obstacle_plugin', 'merge_install': False, 'path': '/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle_plugin', 'symlink_install': False, 'test_result_base': None}
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_description' build argument 'cmake_args' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_description' build argument 'cmake_target' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.288s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot4_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nanu/turtlebot_social_navigation/build/turtlebot4_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nanu/turtlebot_social_navigation/install/turtlebot4_description', 'merge_install': False, 'path': '/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_description', 'symlink_install': False, 'test_result_base': None}
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_fake_node' build argument 'cmake_args' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_fake_node' build argument 'cmake_target' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_fake_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_fake_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_fake_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_fake_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_fake_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_fake_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_fake_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.289s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot_fake_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nanu/turtlebot_social_navigation/build/turtlebot_fake_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node', 'merge_install': False, 'path': '/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot_fake_node', 'symlink_install': False, 'test_result_base': None}
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_msgs' build argument 'cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_msgs' build argument 'cmake_target' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.289s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nanu/turtlebot_social_navigation/build/turtlebot_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs', 'merge_install': False, 'path': '/home/nanu/turtlebot_social_navigation/src/turtlebot_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_simulations' build argument 'cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_simulations' build argument 'cmake_target' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_simulations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_simulations' build argument 'cmake_clean_cache' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_simulations' build argument 'cmake_clean_first' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_simulations' build argument 'cmake_force_configure' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_simulations' build argument 'ament_cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_simulations' build argument 'catkin_cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_simulations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.289s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot_simulations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nanu/turtlebot_social_navigation/build/turtlebot_simulations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nanu/turtlebot_social_navigation/install/turtlebot_simulations', 'merge_install': False, 'path': '/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot_simulations', 'symlink_install': False, 'test_result_base': None}
+[0.289s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.291s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.291s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot_fake_node' with build type 'ament_cmake'
+[0.291s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot_fake_node'
+[0.292s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.292s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.292s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.296s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_sn_world/obstacle_plugin'
+[0.296s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.296s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.299s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_description' with build type 'ament_cmake'
+[0.299s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot4_gazebo/models/turtlebot4_description'
+[0.299s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.299s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.302s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nanu/turtlebot_social_navigation/src/turtlebot_msgs' with build type 'ament_cmake'
+[0.302s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nanu/turtlebot_social_navigation/src/turtlebot_msgs'
+[0.302s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.302s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nanu/turtlebot_social_navigation/build/turtlebot_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake /home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot_fake_node -DCMAKE_INSTALL_PREFIX=/home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node
+[0.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nanu/turtlebot_social_navigation/build/obstacle_plugin': /usr/bin/cmake --build /home/nanu/turtlebot_social_navigation/build/obstacle_plugin -- -j16 -l16
+[0.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nanu/turtlebot_social_navigation/build/turtlebot4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake --build /home/nanu/turtlebot_social_navigation/build/turtlebot4_description -- -j16 -l16
+[0.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nanu/turtlebot_social_navigation/build/turtlebot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake --build /home/nanu/turtlebot_social_navigation/build/turtlebot_msgs -- -j16 -l16
+[0.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nanu/turtlebot_social_navigation/build/turtlebot4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake --build /home/nanu/turtlebot_social_navigation/build/turtlebot4_description -- -j16 -l16
+[0.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nanu/turtlebot_social_navigation/build/turtlebot4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake --install /home/nanu/turtlebot_social_navigation/build/turtlebot4_description
+[0.411s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot4_description)
+[0.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nanu/turtlebot_social_navigation/build/turtlebot4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake --install /home/nanu/turtlebot_social_navigation/build/turtlebot4_description
+[0.414s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot4_description' for CMake module files
+[0.415s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot4_description' for CMake config files
+[0.415s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot4_description', 'cmake_prefix_path')
+[0.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/hook/cmake_prefix_path.ps1'
+[0.417s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/hook/cmake_prefix_path.dsv'
+[0.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/hook/cmake_prefix_path.sh'
+[0.418s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot4_description/bin'
+[0.419s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot4_description/lib/pkgconfig/turtlebot4_description.pc'
+[0.419s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot4_description/lib/python3.10/site-packages'
+[0.419s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot4_description/bin'
+[0.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/package.ps1'
+[0.420s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/package.dsv'
+[0.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/package.sh'
+[0.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/package.bash'
+[0.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/package.zsh'
+[0.423s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/colcon-core/packages/turtlebot4_description)
+[0.425s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nanu/turtlebot_social_navigation/build/obstacle_plugin' returned '0': /usr/bin/cmake --build /home/nanu/turtlebot_social_navigation/build/obstacle_plugin -- -j16 -l16
+[0.443s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot4_description)
+[0.443s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot4_description' for CMake module files
+[0.444s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot4_description' for CMake config files
+[0.444s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot4_description', 'cmake_prefix_path')
+[0.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/hook/cmake_prefix_path.ps1'
+[0.445s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/hook/cmake_prefix_path.dsv'
+[0.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/hook/cmake_prefix_path.sh'
+[0.445s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot4_description/bin'
+[0.445s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot4_description/lib/pkgconfig/turtlebot4_description.pc'
+[0.446s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot4_description/lib/python3.10/site-packages'
+[0.446s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot4_description/bin'
+[0.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/package.ps1'
+[0.446s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/package.dsv'
+[0.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/package.sh'
+[0.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/package.bash'
+[0.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/turtlebot4_description/package.zsh'
+[0.447s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nanu/turtlebot_social_navigation/install/turtlebot4_description/share/colcon-core/packages/turtlebot4_description)
+[0.476s] WARNING:colcon.colcon_cmake.task.cmake.build:Could not run installation step for package 'obstacle_plugin' because it has no 'install' target
+[0.476s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(obstacle_plugin)
+[0.476s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/obstacle_plugin' for CMake module files
+[0.477s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/obstacle_plugin' for CMake config files
+[0.477s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/obstacle_plugin/bin'
+[0.477s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/obstacle_plugin/lib/pkgconfig/obstacle_plugin.pc'
+[0.477s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/obstacle_plugin/lib/python3.10/site-packages'
+[0.477s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/obstacle_plugin/bin'
+[0.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/nanu/turtlebot_social_navigation/install/obstacle_plugin/share/obstacle_plugin/package.ps1'
+[0.478s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nanu/turtlebot_social_navigation/install/obstacle_plugin/share/obstacle_plugin/package.dsv'
+[0.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/nanu/turtlebot_social_navigation/install/obstacle_plugin/share/obstacle_plugin/package.sh'
+[0.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/nanu/turtlebot_social_navigation/install/obstacle_plugin/share/obstacle_plugin/package.bash'
+[0.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/nanu/turtlebot_social_navigation/install/obstacle_plugin/share/obstacle_plugin/package.zsh'
+[0.478s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nanu/turtlebot_social_navigation/install/obstacle_plugin/share/colcon-core/packages/obstacle_plugin)
+[0.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nanu/turtlebot_social_navigation/build/turtlebot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake --build /home/nanu/turtlebot_social_navigation/build/turtlebot_msgs -- -j16 -l16
+[0.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nanu/turtlebot_social_navigation/build/turtlebot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake --install /home/nanu/turtlebot_social_navigation/build/turtlebot_msgs
+[0.839s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot_msgs)
+[0.839s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs' for CMake module files
+[0.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nanu/turtlebot_social_navigation/build/turtlebot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake --install /home/nanu/turtlebot_social_navigation/build/turtlebot_msgs
+[0.840s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs' for CMake config files
+[0.841s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot_msgs', 'cmake_prefix_path')
+[0.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/share/turtlebot_msgs/hook/cmake_prefix_path.ps1'
+[0.841s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/share/turtlebot_msgs/hook/cmake_prefix_path.dsv'
+[0.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/share/turtlebot_msgs/hook/cmake_prefix_path.sh'
+[0.842s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/lib'
+[0.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot_msgs', 'ld_library_path_lib')
+[0.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/share/turtlebot_msgs/hook/ld_library_path_lib.ps1'
+[0.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/share/turtlebot_msgs/hook/ld_library_path_lib.dsv'
+[0.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/share/turtlebot_msgs/hook/ld_library_path_lib.sh'
+[0.843s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/bin'
+[0.843s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/lib/pkgconfig/turtlebot_msgs.pc'
+[0.843s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/lib/python3.10/site-packages'
+[0.843s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/bin'
+[0.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/share/turtlebot_msgs/package.ps1'
+[0.844s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/share/turtlebot_msgs/package.dsv'
+[0.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/share/turtlebot_msgs/package.sh'
+[0.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/share/turtlebot_msgs/package.bash'
+[0.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/share/turtlebot_msgs/package.zsh'
+[0.845s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/share/colcon-core/packages/turtlebot_msgs)
+[1.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot_msgs)
+[1.000s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs' for CMake module files
+[1.000s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs' for CMake config files
+[1.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot_msgs', 'cmake_prefix_path')
+[1.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/share/turtlebot_msgs/hook/cmake_prefix_path.ps1'
+[1.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/share/turtlebot_msgs/hook/cmake_prefix_path.dsv'
+[1.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/share/turtlebot_msgs/hook/cmake_prefix_path.sh'
+[1.002s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/lib'
+[1.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot_msgs', 'ld_library_path_lib')
+[1.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/share/turtlebot_msgs/hook/ld_library_path_lib.ps1'
+[1.002s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/share/turtlebot_msgs/hook/ld_library_path_lib.dsv'
+[1.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/share/turtlebot_msgs/hook/ld_library_path_lib.sh'
+[1.002s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/bin'
+[1.003s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/lib/pkgconfig/turtlebot_msgs.pc'
+[1.003s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/lib/python3.10/site-packages'
+[1.003s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/bin'
+[1.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/share/turtlebot_msgs/package.ps1'
+[1.003s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/share/turtlebot_msgs/package.dsv'
+[1.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/share/turtlebot_msgs/package.sh'
+[1.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/share/turtlebot_msgs/package.bash'
+[1.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/share/turtlebot_msgs/package.zsh'
+[1.004s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nanu/turtlebot_social_navigation/install/turtlebot_msgs/share/colcon-core/packages/turtlebot_msgs)
+[1.101s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nanu/turtlebot_social_navigation/build/turtlebot_fake_node' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nanu/turtlebot3_drlnav/install/turtlebot3_drl:/opt/ros/humble /usr/bin/cmake /home/nanu/turtlebot_social_navigation/src/turtlebot_simulations/turtlebot_fake_node -DCMAKE_INSTALL_PREFIX=/home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node
+[1.110s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot_fake_node)
+[1.110s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node' for CMake module files
+[1.111s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node' for CMake config files
+[1.111s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/bin'
+[1.111s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/lib/pkgconfig/turtlebot_fake_node.pc'
+[1.111s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/lib/python3.10/site-packages'
+[1.112s] Level 1:colcon.colcon_core.environment:checking '/home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/bin'
+[1.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/package.ps1'
+[1.113s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/package.dsv'
+[1.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/package.sh'
+[1.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/package.bash'
+[1.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/turtlebot_fake_node/package.zsh'
+[1.114s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nanu/turtlebot_social_navigation/install/turtlebot_fake_node/share/colcon-core/packages/turtlebot_fake_node)
+[1.125s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.125s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.125s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[1.125s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.133s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.133s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.133s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.146s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.146s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nanu/turtlebot_social_navigation/install/local_setup.ps1'
+[1.148s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nanu/turtlebot_social_navigation/install/_local_setup_util_ps1.py'
+[1.150s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nanu/turtlebot_social_navigation/install/setup.ps1'
+[1.153s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nanu/turtlebot_social_navigation/install/local_setup.sh'
+[1.154s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nanu/turtlebot_social_navigation/install/_local_setup_util_sh.py'
+[1.154s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nanu/turtlebot_social_navigation/install/setup.sh'
+[1.157s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nanu/turtlebot_social_navigation/install/local_setup.bash'
+[1.158s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nanu/turtlebot_social_navigation/install/setup.bash'
+[1.160s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nanu/turtlebot_social_navigation/install/local_setup.zsh'
+[1.161s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nanu/turtlebot_social_navigation/install/setup.zsh'

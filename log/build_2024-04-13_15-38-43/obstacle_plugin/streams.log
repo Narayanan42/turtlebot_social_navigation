@@ -1,0 +1,15 @@
+[0.016s] Invoking command in '/home/nanu/turtlebot_social_navigation/build/obstacle_plugin': /usr/bin/cmake --build /home/nanu/turtlebot_social_navigation/build/obstacle_plugin -- -j16 -l16
+[0.096s] [ 26%] Built target obstacle2
+[0.096s] [ 26%] Built target obstacle7
+[0.096s] [ 26%] Built target obstacle5
+[0.096s] [ 38%] Built target obstacle4
+[0.096s] [ 46%] Built target obstacle3
+[0.096s] [ 61%] Built target obstacle6
+[0.096s] [ 61%] Built target obstacle9
+[0.096s] [ 73%] Built target obstacle10
+[0.097s] [ 76%] Built target obstacle8
+[0.097s] [ 84%] Built target obstacles
+[0.097s] [ 30%] Built target obstacle1
+[0.097s] [ 92%] Built target obstacle12
+[0.098s] [100%] Built target obstacle11
+[0.107s] Invoked command in '/home/nanu/turtlebot_social_navigation/build/obstacle_plugin' returned '0': /usr/bin/cmake --build /home/nanu/turtlebot_social_navigation/build/obstacle_plugin -- -j16 -l16

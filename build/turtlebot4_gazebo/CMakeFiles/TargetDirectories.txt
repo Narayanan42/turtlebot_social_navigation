@@ -1,0 +1,13 @@
+/home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo/CMakeFiles/uninstall.dir
+/home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo/CMakeFiles/turtlebot4_gazebo_uninstall.dir
+/home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo/CMakeFiles/turtlebot4_drive.dir
+/home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo/CMakeFiles/obstacle1.dir
+/home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo/CMakeFiles/obstacle2.dir
+/home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo/CMakeFiles/obstacles.dir
+/home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo/CMakeFiles/test.dir
+/home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo/CMakeFiles/edit_cache.dir
+/home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo/CMakeFiles/rebuild_cache.dir
+/home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo/CMakeFiles/list_install_components.dir
+/home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo/CMakeFiles/install.dir
+/home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo/CMakeFiles/install/local.dir
+/home/nanu/turtlebot_social_navigation/build/turtlebot4_gazebo/CMakeFiles/install/strip.dir

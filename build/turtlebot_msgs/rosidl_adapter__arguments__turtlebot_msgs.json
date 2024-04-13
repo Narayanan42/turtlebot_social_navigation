@@ -1,0 +1,13 @@
+{
+  "package_name": "turtlebot_msgs",
+  "non_idl_tuples": [
+    "/home/nanu/turtlebot_social_navigation/src/turtlebot_msgs:msg/SensorState.msg",
+    "/home/nanu/turtlebot_social_navigation/src/turtlebot_msgs:msg/Sound.msg",
+    "/home/nanu/turtlebot_social_navigation/src/turtlebot_msgs:msg/VersionInfo.msg",
+    "/home/nanu/turtlebot_social_navigation/src/turtlebot_msgs:srv/Sound.srv",
+    "/home/nanu/turtlebot_social_navigation/src/turtlebot_msgs:srv/DrlStep.srv",
+    "/home/nanu/turtlebot_social_navigation/src/turtlebot_msgs:srv/Goal.srv",
+    "/home/nanu/turtlebot_social_navigation/src/turtlebot_msgs:srv/RingGoal.srv",
+    "/home/nanu/turtlebot_social_navigation/src/turtlebot_msgs:action/Patrol.action"
+  ]
+}
